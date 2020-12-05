@@ -68,7 +68,7 @@ export default function Footer() {
                             </li>
                             <li className="list-group-item">
                                 <Button type="link">
-                                   <span>StayCation.,  Kemang, Jakarta</span>
+                                   <span>StayCation, Cilandak, Jakarta Selatan</span>
                                 </Button>
                             </li>
                         </ul>

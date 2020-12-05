@@ -1,7 +1,6 @@
 import React from 'react'
 import Fade from 'react-reveal'
 import CompletedIllustration from 'assets/image/completed.jpg'
-import Button from 'element/Button'
 
 export default function Completed() {
     return (

@@ -1,6 +1,5 @@
 import React from 'react'
 import Star from 'element/Star'
-import TestimonyAccent from 'assets/image/testimonial-landingpages-frame.jpg'
 import Button from 'element/Button'
 import Fade from 'react-reveal/Fade';
 
@@ -13,8 +12,6 @@ export default function Testimony({data}) {
                         <div className="testimonial-hero" style={{margin: `30px 0 0 30px`}}>
                             <img src={data.imageUrl} alt="Testimonial" className="position-absolute"
                             style={{zIndex:1}}/>
-                            <img src={TestimonyAccent} alt="Testimonial frame" className="position-absolute"
-                            style={{margin: `-30px 0 0 -30px`}}/>
                         </div>
                     </div>
                     <div className="col">

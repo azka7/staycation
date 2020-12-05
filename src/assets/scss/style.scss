@@ -57,8 +57,12 @@
     }
 }
 
+body {
+    background-color: #FFFFD5;
+}
+
 header{
-    border-bottom: 1px solid $gray-200;
+    border-bottom: 1px solid #3252DF;
     width: 100%;
     position: relative;
     margin-bottom: 50px;
@@ -109,6 +113,7 @@ section {
 }
 
 .card {
+    background-color:#D5D5FF;
     &.bordered   {
         border: 1px solid $gray-200;
         height: 90%;
@@ -141,7 +146,7 @@ section {
     }
 
     .meta-wrapper {
-        margin-top: 1rem;
+        margin : .5rem 10px;
 
         h5 {
             font-size: 1.125rem;
@@ -260,4 +265,8 @@ main {
         font-weight: 300;
         text-align: justify;
     }
+}
+
+.list-group-item {
+    background-color: transparent;
 }

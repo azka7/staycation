@@ -1,6 +1,5 @@
 import React from "react";
 import ImageHero from "assets/image/img-hero.jpg";
-import ImageHeroFrame from "assets/image/img-hero-frame.jpg";
 import IconCities from "assets/image/icons/icon-cities.svg";
 import IconTraveler from "assets/image/icons/icon-traveler.svg";
 import IconTreasure from "assets/image/icons/icon-treasure.svg";
@@ -24,7 +23,7 @@ export default function Hero(props) {
         <section className="container pt-4">
             <div className="row align-items-center">
             <Fade left>
-                <div className="col-auto pr-5" style={{width: 530}}>
+                <div className="col-auto pr-5" style={{width: 545}}>
                     <h1 className="font-weight-bold line-height-1 mb-3">
                         Forget Busy Work, <br />
                         Start Next Vacation
@@ -82,13 +81,7 @@ export default function Hero(props) {
                             src={ImageHero}
                             alt="Room with couches"
                             className="img-fluid position-absolute"
-                            style={{margin:'-30px 0 0 -30px', zIndex: 1}}
-                        />
-                        <img
-                            src={ImageHeroFrame}
-                            alt="Room with couches"
-                            className="img-fluid position-absolute"
-                            style={{margin:'0 -15px -15px 0', zIndex: 0}}
+                            style={{zIndex: 1, borderRadius:'10px', width:'150%'}}
                         />
                     </div>
                 </div>

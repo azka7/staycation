@@ -75,6 +75,18 @@ export default class BookingForm extends Component {
         }
     } 
 
+    startBooking = () => {
+        const { data } = this.state
+        this.props.startBooking({
+            _id: this.props.itemDetails._id,
+            duration: data.duration,
+            date:{
+                startDate: data.date.startDate,
+                endDate: data.date.endDate
+            }
+        })
+    }
+
     render() {
         const { data } = this.state
         const { itemDetails, startBooking } = this.props
@@ -114,7 +126,7 @@ export default class BookingForm extends Component {
                     </span>
                 </h6>
 
-                <Button className="btn" hasShadow isPrimary isBlock onClick={startBooking}>
+                <Button className="btn" hasShadow isPrimary isBlock onClick={this.startBooking}>
                     Continue to Book
                 </Button>
             </div>
